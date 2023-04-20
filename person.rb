@@ -28,6 +28,6 @@ class Person < Nameable
   end
 
   def add_rental(date, book)
-    @rentals.push(Rental.new(date,self, book))
+    @rentals.push(Rental.new(date, self, book))
   end
 end
