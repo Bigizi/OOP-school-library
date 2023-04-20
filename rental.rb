@@ -9,4 +9,4 @@ class Rental
       @book = book
       book.rentals.push(self)
     end
-  end
+end
