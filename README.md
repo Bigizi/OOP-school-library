@@ -139,6 +139,12 @@ You can deploy this project using any host of your choice
 - GitHub: [@Bigizi Nduwayo Crispin](https://github.com/Bigizi)
 - LinkedIn: [@Bigizi Nduwayo Crispin](https://www.linkedin.com/in/bigizi/)
 
+👤 **Alice Mirigo**
+
+- GitHub: [Alice Mirigo](https://github.com/alicemirigo92)
+- Twitter: [@Gathonimirigo](https://twitter.com/GathoniMirigo)
+- LinkedIn: [Alice](www.linkedin.com/in/alice-mirigo)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
