@@ -3,12 +3,10 @@ class Rental
 
   def initialize(date, book, person)
     @date = date
-
     @book = book
-    book.rentals.push(self)
-
+    @book.rental << self
     @person = person
-    person.rentals.push(self)
+    person.rental << self
   end
 
   def to_json(*arg)

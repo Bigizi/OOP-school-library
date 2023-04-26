@@ -1,17 +1,16 @@
 require_relative 'rental'
 require 'json'
-
 class Book
-  attr_accessor :title, :author, :rentals
+  attr_accessor :title, :author, :rental
 
   def initialize(title, author)
     @title = title
     @author = author
-    @rentals = []
+    @rental = []
   end
 
   def add_rental(date, person)
-    @rentals.push(Rental.new(date, person))
+    @rental << Rental.new(date, self, person)
   end
 
   def to_json(*arg)
