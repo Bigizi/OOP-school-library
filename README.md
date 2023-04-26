@@ -95,6 +95,23 @@ ruby main.rb
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Tekhlay**
+
+- GitHub: [@Bigizi Nduwayo Crispin](https://github.com/Bigizi)
+- LinkedIn: [@Bigizi Nduwayo Crispin](https://www.linkedin.com/in/bigizi/)
+
+👤 **Alice Mirigo**
+
+- GitHub: [Alice Mirigo](https://github.com/alicemirigo92)
+- Twitter: [@Gathonimirigo](https://twitter.com/GathoniMirigo)
+- LinkedIn: [Alice](www.linkedin.com/in/alice-mirigo)
+
+👤 **Habtamu**
+
+- GitHub: [@Habtamu210](https://github.com/Habtamu210)
+- Twitter: [@beleyaha](https://twitter.com/beleyaha)
+- LinkedIn: [@habtamu-](https://www.linkedin.com/in/habtamu-birru/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -137,6 +154,6 @@ I would like to thank Microverse which provided me all knowledge about full stac
 
 ## 📝 License <a name="license"></a>
 
-This project is contributed under [GNU 3.0](./LICENSE.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
