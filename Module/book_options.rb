@@ -1,4 +1,4 @@
-require_relative '../book'
+require_relative '../Components/book'
 require_relative 'input'
 require_relative '../utils/io_file'
 
@@ -6,7 +6,7 @@ class BookOptions
   attr_accessor :books_list
 
   def initialize
-    @books_file = IOFile.new('./data/books.json')
+    @books_file = IOFile.new('./my-data/books.json')
     @books_list = @books_file.read_data
   end
 

@@ -1,12 +1,9 @@
+
+## Getting Started
+
+This project will build the OOP school library.
+
 <a name="readme-top"></a>
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <br/>
-
-  <h3><b>OOP SCHOOL LIBRARY</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -16,68 +13,36 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [OOP-school-library] <a name="about-project"></a>
+# 📖OOP school library <a name="about-project"></a>
 
-**[OOP-school-library]** is a school library app build with Ruby language. In this initial step, I implement the classes to represent students and teachers.
+**OOP school library** it will help implement OOP school library tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://react.dev/">coming soon(React js)</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://ruby.org/">Ruby</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+Ruby
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Implement classes and objects in Ruby]**
-- **[Implement encapsulation and inheritance with Ruby]**
-- **[Use cmd for running program]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [will be Available soon](#)
+- Add Person, Student, and Teacher classes.
+- Use the "Decorator" design pattern.
+- Add basic UI.
+- Preserve data.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,46 +52,42 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
 
-In order to run this project you need:
+## Install
 
+### Clone the repository
 
-```sh
-gem install ruby
+```shell
+git clone https://github.com/hienphan0111/OPP-school-library.git
+cd OPP-school-library
+```
+### Check your Ruby version
+
+```shell
+ruby -v
 ```
 
-### Setup
+The ouput should start with something like `ruby 3.2.2`
 
-Clone this repository to your desired folder:
+If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (it could take a while):
 
-```sh
-cd my-folder
-  git clone https://github.com/Bigizi/OOP-school-library
+```shell
+rbenv install 3.2.2
 ```
 
-### Install
+### Install dependencies
 
-Install this project with:
+Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
 
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  irb
+```shell
+bundle && yarn
 ```
 
-### Run tests
+### run program demo
 
-To run tests, run the following command:
-
-
-### Deployment
-
-You can deploy this project using any host of your choice
-
-
+```shell
+ruby main.rb
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,32 +95,14 @@ You can deploy this project using any host of your choice
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Tekhlay**
-
-- GitHub: [@Bigizi Nduwayo Crispin](https://github.com/Bigizi)
-- LinkedIn: [@Bigizi Nduwayo Crispin](https://www.linkedin.com/in/bigizi/)
-
-👤 **Alice Mirigo**
-
-- GitHub: [Alice Mirigo](https://github.com/alicemirigo92)
-- Twitter: [@Gathonimirigo](https://twitter.com/GathoniMirigo)
-- LinkedIn: [Alice](www.linkedin.com/in/alice-mirigo)
-
-👤 **Habtamu**
-
-- GitHub: [@Habtamu210](https://github.com/Habtamu210)
-- Twitter: [@beleyaha](https://twitter.com/beleyaha)
-- LinkedIn: [@habtamu-](https://www.linkedin.com/in/habtamu-birru/)
-- 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[set up associations.]**
-- [ ] **[add basic UI]**
-- [ ] **[refractor code and preserve data]**
+- Unit tests
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +112,7 @@ You can deploy this project using any host of your choice
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Bigizi/OOP-school-library/issues/).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,7 +120,8 @@ Feel free to check the [issues page](https://github.com/Bigizi/OOP-school-librar
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give ⭐️ and share with your friends!
+
+If you like this project please give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,17 +129,7 @@ If you like this project give ⭐️ and share with your friends!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank @Microverse online school.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[How to run ruby program]**
-
-  - [use irb on command line]
+I would like to thank Microverse which provided me all knowledge about full stack development.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,6 +137,6 @@ I would like to thank @Microverse online school.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE) licensed.
+This project is contributed under [GNU 3.0](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
