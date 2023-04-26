@@ -1,3 +1,0 @@
-[{"name":"Hanan","age":30,"permission":{"parent_permission":{"parent_permission":{"parent_permission":false}}},"type":"Student"},
-{"name":"Marco","age":40,"permission":{"parent_permission":{"parent_permission":{"parent_permission":false}}},"type":"Student"},
-{"name":"Microverse","age":"Programming teacher","specialization":0,"type":"Teacher"},{"name":"uffff","age":10,"permission":false,"type":"Student"}]
