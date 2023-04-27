@@ -8,33 +8,33 @@ describe Student do
   end
   
   describe "#new" do
-    it "returns a new Student object" do
+    it "returns an Student object belong to Student class" do
       expect(@student).to be_an_instance_of Student
     end
   end
 
   describe "#age" do
-    it "returns the student's age" do
-      expect(@student.age).to eql 23
-    end
+      it "return students age" do
+          expect(@student.age).to eql 23
+      end
   end
 
   describe "#name" do
-    it "returns the student's name" do
-      expect(@student.name).to eql "John"
-    end
+      it "return students name" do
+          expect(@student.name).to eql "John"
+      end
   end
 
   describe "#parent_permission" do
-    it "returns the parent's permission" do
-      expect(@student.parent_permission).to be true
-    end
+      it "return parent permission" do
+          expect(@student.parent_permission).to be true
+      end
   end
 
-  describe "#add_classroom" do
-    it "adds the classroom to the student and returns the classroom's label" do
-      @student.add_classroom(@class1)
-      expect(@student.classroom.label).to eq "Basic test"
+  describe "#add classroom" do
+    it "returns classroom name" do
+        @student.classroom = @class1
+        expect(@student.classroom.label).to eq "Basic test"
     end
   end
 
