@@ -154,6 +154,6 @@ I would like to thank Microverse which provided me all knowledge about full stac
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE) licensed.
+This project is contributed under (https://github.com/Bigizi/OOP-school-library/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
