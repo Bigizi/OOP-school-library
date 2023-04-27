@@ -43,6 +43,7 @@ Ruby
 - Use the "Decorator" design pattern.
 - Add basic UI.
 - Preserve data.
+- Unit test.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
