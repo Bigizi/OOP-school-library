@@ -1,0 +1,6 @@
+require_relative '../Components/book'
+require_relative '../Entity/student'
+require_relative '../Components/classroom'
+require_relative '../Entity/teacher'
+require_relative '../Components/rental'
+require_relative '../Components/person'

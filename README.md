@@ -43,6 +43,7 @@ Ruby
 - Use the "Decorator" design pattern.
 - Add basic UI.
 - Preserve data.
+- Unit test.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,8 +110,8 @@ ruby main.rb
 👤 **Habtamu**
 
 - GitHub: [@Habtamu210](https://github.com/Habtamu210)
-- Twitter: [@beleyaha](https://twitter.com/beleyaha)
 - LinkedIn: [@habtamu-](https://www.linkedin.com/in/habtamu-birru/)
+- Twitter: [@beleyaha](https://twitter.com/beleyaha)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +126,7 @@ ruby main.rb
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="Contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 

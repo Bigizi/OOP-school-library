@@ -40,7 +40,7 @@ class PeopleOptions
     age = Input.user_input('Age: ').to_i
     name = Input.user_input('Name: ')
     parent_permission = Input.user_input('Has parent permission? [Y/N]: ') == 'y'
-    @people_list.push(Student.new(age, name, parent_permission: parent_permission))
+    @people_list.push(Student.new(age, name, parent_permission:))
     @people_file.write_data(@people_list)
     puts "\nPerson created successfuly"
   end

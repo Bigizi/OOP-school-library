@@ -4,6 +4,7 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
+    - "rspec/**/*"
 
   DisplayCopNames: true
 
@@ -19,9 +20,7 @@ Metrics/BlockLength:
   IgnoredMethods: ['describe']
   Max: 30
 
-Style/EndOfLine:
-  EnforcedStyle: lf
-  
+
 Style/Documentation:
   Enabled: false
 Style/ClassAndModuleChildren:
